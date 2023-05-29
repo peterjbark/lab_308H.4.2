@@ -62,6 +62,30 @@
 // Methods Revisited
 ////////////////////
 
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 
+'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 
+'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 
+'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 
+'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+console.log(favMovies.indexOf("Titanic"));
+favMovies.sort();
+//Organized elements in favMovies alphabetically
+favMovies.pop();
+//Removed last element from favMovies
+favMovies.push("Guardians of the Galaxy");
+//Inserted "Guardians of the Galaxy as the last element"
+favMovies.reverse();
+//Reversed the order of the array
+favMovies.shift();
+//Removes the first element of the array
+favMovies.unshift();
+//Does not add an element
+favMovies.splice(14,1, "Avatar");
+//Replaces "Django" with "Avatar"
+let sliced = favMovies.slice(9,18);
+console.log(sliced);
+//Logs the second half of the array into "sliced", does not alter original array
+
 /////////////////
 // Where is Waldo
 /////////////////
