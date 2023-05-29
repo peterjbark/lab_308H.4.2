@@ -36,21 +36,27 @@
 // Wild Wild Life
 /////////////////
 
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
-const sharky = ["Sharky", "shark", 20, "Left Coast"];
-const plantee = ["Plantee", "plant",  5000 , "Mordor"];
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
-wolfy.shift();
-wolfy.unshift("Gameboy");
-wolfy.pop();
-wolfy.push("Gotham City");
-dart.push("Hawkins");
-plantee[2]=5001;
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
+// const sharky = ["Sharky", "shark", 20, "Left Coast"];
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"];
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
+// wolfy.shift();
+// wolfy.unshift("Gameboy");
+// wolfy.pop();
+// wolfy.push("Gotham City");
+// dart.push("Hawkins");
+// plantee[2]=5001;
 
 ////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////
+
+// const ninjas = ["Donatello","Leonardo","Raphael","Michaelangelo"];
+// let upperCase ="";
+// for (let x of ninjas){
+//     console.log(x.toUpperCase());
+// }
 
 ////////////////////
 // Methods Revisited
