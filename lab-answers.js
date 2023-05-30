@@ -156,17 +156,25 @@ const kristynsCloset = [
 // Alien Attire
 ///////////////
 
-let kristynsShoe = kristynsCloset.splice(0,1);
-thomsCloset[2].push(kristynsShoe);
-console.log(thomsCloset[2]);
+// let kristynsShoe = kristynsCloset.splice(0,1);
+// thomsCloset[2].push(kristynsShoe);
+// console.log(thomsCloset[2]);
+
 //////////////
 // Dress Us Up
 //////////////
+
+
 
 //////////////// 
 // Dirty Laundry 
 ////////////////
 
+for (i=0; i<= kristynsCloset.length-1; i++){
+    console.log("WHIRR: Now washing " + kristynsCloset[i] + ".");
+}
+
 /////////////
 // Inventory
 ///////////// 
+
