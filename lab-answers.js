@@ -101,6 +101,17 @@
 // Excited Kitten
 /////////////////
 
+// for (i=0 ; i<=20; i++){
+//     let x = Math.floor(Math.random() * 10);
+//     if(i%2 === 0 && x <= 4 ){
+//         console.log("...human... why you taking pictures of me...?",i);
+//         }else if (i%2 === 0 && x >= 5) {
+//             console.log("...the catnip made me do it...",i)
+//         } else{
+//         console.log( "Love me, pet me! HSSSSSS!" ,i);
+//     }
+// }
+
 //////////////////
 // Find the Median
 //////////////////
